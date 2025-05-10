@@ -87,7 +87,8 @@ The **Weather Forecast App** is a web-based application designed to provide real
 
 ## Screenshots
 
-**[Add relevant screenshots here, such as the app interface or a sample of the weather data display]**
+**![Image](https://github.com/user-attachments/assets/5f32b1e4-b724-437d-a86c-d529abc7af88)**
+**![Image](https://github.com/user-attachments/assets/753d3eaf-0382-47bc-922f-e252953074d8)**
 
 ---
 
