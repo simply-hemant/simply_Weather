@@ -113,10 +113,6 @@ Contributions are always welcome! Here's how you can contribute to this project:
 
 ---
 
-## License
-
-This project is licensed under the MIT License.
-
 ---
 
 ## Acknowledgements
