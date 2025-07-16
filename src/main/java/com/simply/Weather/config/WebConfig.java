@@ -10,9 +10,12 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        // Allow CORS requests from your frontend domain (e.g., http://localhost:3000)
         registry.addMapping("/**")
-                .allowedOrigins("http://127.0.0.1:5500")  // Add your frontend URL here
+                .allowedOrigins(
+                    "http://127.0.0.1:5500",                  // local testing
+                    "https://simply-weather.onrender.com"     // your Render backend
+                    // Add frontend domain here if hosted separately
+                )
                 .allowedMethods("GET")
                 .allowedHeaders("*")
                 .allowCredentials(true);

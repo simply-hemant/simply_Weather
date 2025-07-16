@@ -3,7 +3,7 @@ async function getWeather() {
   const resultDiv = document.getElementById('result');
 
   try {
-    const response = await fetch(`http://localhost:8080/api/city?city=${cityName}`);
+    const response = await fetch(`/api/city?city=${cityName}`);
     if (!response.ok) throw new Error("Network response was not ok");
 
     const text = await response.text();
