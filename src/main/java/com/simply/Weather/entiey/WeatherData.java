@@ -12,6 +12,8 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 public class  WeatherData {
 
+
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -29,6 +31,5 @@ public class  WeatherData {
     private int temperature;
     private int wind_speed;
     private int humidity;
-
-
+    
 }
